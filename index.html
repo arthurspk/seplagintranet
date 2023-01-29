@@ -1,0 +1,235 @@
+<html>
+  <head>
+    <title>Página de Login - SEPLAG (Intrenet)</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      html, body {
+        background-image: url(images/background-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 96.5vh ;
+  width: 100%;
+}
+
+.logo-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo-center {
+  margin: 0 auto;
+}
+
+.remember-password {
+  display: flex;
+  margin-left: -270px
+}
+
+.recovery-password {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.login-button {
+  width: 536px;
+  height: 89px;
+  border-radius: 20px;
+  background: #0084CF;
+  box-shadow: 10px 10px 5px 0px rgba(47,47,47,0.2);
+  text-align: center;
+  line-height: 89px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.center {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"], input[type="password"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 1px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.username-style {
+  position: relative;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+#username {
+    width: 536px;
+    height: 89px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 55px;
+}
+
+.username-icon {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  z-index: 2;
+  padding-right: 30px;
+  margin-left: 10px;
+  top: 29px;
+  left: 8px
+}
+
+.password-style {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  z-index: 2;
+  margin-left: 10px;
+  top: 25px;
+  left: 9px;
+}
+
+#password {
+  width: 536px;
+    height: 89px;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 55px;
+}
+
+.click-here {
+  color: #C4EB05;
+  text-decoration: none;
+  font-weight: bold
+}
+
+button {
+  --color: #0084CF;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 20px;
+  position: relative;
+}
+
+button:hover {
+  background: #0084CF;
+  box-shadow: 3px 4px 15px 4px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-out;
+}
+
+button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/logo-left.png" class="logo-left">
+      <div class="container center">
+        <img src="images/logo-center.png" class="logo-center">
+        <form>
+          <label for="username"></label>
+          <div class='username-style'>
+          <img src="images/username.png" class='username-icon' alt="">
+          <input placeholder='servidorteste@mail.com' type="text" id="username" name="username">
+          </div>
+          <br>
+          <label for="password"></label>
+          <div class='password-style'>
+          <img src="images/password.png" class='password-icon' alt="">
+          <input placeholder='********' type="password" id="password" name="password">
+          </div>
+        </form>
+        <div class='remember-password'>
+          <p class='recovery-password'>Esqueceu a senha? <a href="pagina-externa.html"><span class='click-here'>clique aqui</span></a></p>
+        </div>
+        <a href="home.html"><button class="login-button">login</button></a>
+      </div>
+    </div>
+    <footer>
+      <div style="background-color: #0065D8; text-align: center;">
+       <strong> <p style="color: white; margin: 0; padding: 5px 0; font-family: 'Roboto'; ">Copyright Ⓡ 2023 SEPLAG - Secretária do Estado de Planejamento, Gestão e Patrimônio | Todos os direitos reservados</p> </strong>
+      </div>
+    </footer>
+  </body>
+</html>
