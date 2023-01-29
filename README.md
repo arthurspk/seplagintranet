@@ -21,13 +21,9 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 
 
 # 🎯 Acesse ao projeto
-
 Você pode acessar o site pelo link abaixo:
-
 - [SEPLAG - Intranet](#) - O site está hospedado gratuitamente na Netlify
 
-
 # 💼 Direitos
-​
-- Todos os direitos reservados por SEPLAG - [SEPLAG Ⓡ](http://www.seplag.al.gov.br/) <br>
+- Todos os direitos reservados por [SEPLAG Ⓡ](http://www.seplag.al.gov.br/) <br>
 - Feito por Arthur Coutinho.
