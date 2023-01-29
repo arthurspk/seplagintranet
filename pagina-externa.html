@@ -1,124 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Externa</title>
-  <style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Externa</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-html, body {
-  background-image: url("images/background-image.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  overflow: hidden;
-}
+      html,
+      body {
+        background-image: url("images/background-image.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow: hidden;
+      }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+      }
 
-h1 {
-  position: absolute; 
-  font-family: 'Roboto'; 
-  font-style: normal; 
-  font-weight: 900; 
-  font-size: 4rem; 
-  line-height: 4.813rem; 
-  display: flex; 
-  align-items: center; 
-  letter-spacing: 0.1em; 
-  text-transform: uppercase; 
-  color: #FFFFFF; 
-  text-align: center;
-  margin:auto;
-  left: 11.25rem;
-  right:0;
-}
+      h1 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin: auto;
+      }
 
-p {
-  position: absolute; 
-  font-family: 'Roboto'; 
-  font-style: normal; 
-  font-weight: 900; 
-  font-size: 4rem; 
-  line-height: 4.813rem; 
-  display: flex; 
-  align-items: center; 
-  letter-spacing: 0.1em; 
-  color: #FFFFFF; 
-  text-align: center;
-  margin:auto;
-  right:0;
-}
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 4.813rem;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+      }
+      .h1-style {
+        padding: 10% 0 0 10%;
+      }
+      .text-style {
+        font-family: "Roboto";
+        font-weight: normal;
+        padding: 2% 0 0 10%;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        max-width: 35%;
+      }
 
-.text-style {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #FFFFFF;
-  max-width: 25%;
-  margin-left: 0rem;
-  margin-top: 2rem;
-  text-align: left;
-  left: 11.281rem;
-  right: 0;
-}
+      .button-div {
+        display: flex;
+        width: 18.688rem;
+        height: 5.377rem;
+        background: #ab78f7;
+        box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 0.06);
+        border-radius: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        margin: 3% 0 0 10%;
+      }
 
-.button-div {
-  display: flex;
-  position: absolute;
-  width: 18.688rem;
-  height: 5.377rem;
-  top: 38rem;
-  background: #AB78F7;
-  box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 0.06);
-  border-radius: 2.5rem;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10.8em
-}
-
-.button-style {
-  font-weight: 500;
-  font-size: 2.5rem;
-  color: #F1F1F1;
-}
-
-</style>
-</head>
+      .button-style {
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #f1f1f1;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
   <body>
-    <div style='display: flex; margin-left: 10em'>
-    <h1 style="top: 12.5rem;">:)</h1> <br>
-    <h1 style="top: 18.75rem;">Link</h1> <br>
-    <h1 style="top: 23.75rem;">Externo</h1> <br>
-  </div>
-  <div class='paragrafo'>
-    <p class='text-style'>
-      Este é apenas um protótipo, 
-      na versão final essa botão
-      levará a um link externo a esse portal.
-    </p>
-  </div>
-  <div class='button-div'>
-    <a href="javascript:history.back()"><button class='button-style'>voltar</button></a>
-  </div>
-</body>
+    <div class="h1-style">
+      <h1>:)</h1>
+      <h1>Link</h1>
+      <h1>Externo</h1>
+    </div>
+    <div class="paragrafo">
+      <p class="text-style">
+        Este é apenas um protótipo, na versão final essa botão levará a um link
+        externo a esse portal.
+      </p>
+    </div>
+    <div class="button-div">
+      <a href="javascript:history.back()"
+        ><button class="button-style">voltar</button></a
+      >
+    </div>
+  </body>
 </html>
