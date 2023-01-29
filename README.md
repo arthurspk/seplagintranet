@@ -25,9 +25,9 @@ Você pode acessar o site pelo link abaixo:
 
 # :mag: Visualização do projeto
 
-`/index.html` - Página de Login
-`/home.html` - Página Inicial do Projeto
-`/pagina-externa.html` - Página Externa do Projeto
+- `/index.html` - Página de Login
+- `/home.html` - Página Inicial do Projeto
+- `/pagina-externa.html` - Página Externa do Projeto
 
 # 🎥 Explicação do projeto
 No vídeo que será disponibilizado abaixo, você irá encontrar a explicação do projeto para que não perca nenhum detalhe
