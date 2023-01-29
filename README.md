@@ -19,11 +19,20 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [Jquery](https://jquery.com/)
 
-
 # 🎯 Acesse ao projeto
 Você pode acessar o site pelo link abaixo:
 - [SEPLAG - Intranet](#) - O site está hospedado gratuitamente na Netlify
 
+# :mag: Visualização do projeto
+
+`/index.html` - Página de Login
+`/home.html` - Página Inicial do Projeto
+`/pagina-externa.html` - Página Externa do Projeto
+
+# 🎥 Explicação do projeto
+No vídeo que será disponibilizado abaixo, você irá encontrar a explicação do projeto para que não perca nenhum detalhe
+- [Explicação Youtube](#)
+
 # 💼 Direitos
-- Todos os direitos reservados por [SEPLAG Ⓡ](http://www.seplag.al.gov.br/) <br>
+- Todos os direitos reservados por [SEPLAG Ⓡ](http://www.seplag.al.gov.br/)
 - Feito por Arthur Coutinho.
