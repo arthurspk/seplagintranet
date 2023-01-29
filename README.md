@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="preview.png" alt="Tela de Login" width="480px"/>
+   <img src="/images/preview.png" alt="Tela de Login" width="480px"/>
 </p>
 
 <h1 align="center">SEPLAG - Intranet</h1>
@@ -29,5 +29,5 @@ Você pode acessar o site pelo link abaixo:
 
 # 💼 Direitos
 ​
-- Todos os direitos reservados por SEPLAG - Secretária do Estad de Planejamento, Gestão e Patrimônio - [SEPLAG Ⓡ](http://www.seplag.al.gov.br/) <br>
+- Todos os direitos reservados por SEPLAG - [SEPLAG Ⓡ](http://www.seplag.al.gov.br/) <br>
 - Feito por Arthur Coutinho.
