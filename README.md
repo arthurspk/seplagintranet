@@ -30,7 +30,7 @@ Você pode acessar o site pelo link abaixo:
 - `/pagina-externa.html` - Página Externa do Projeto
 
 # 🎥 Explicação do projeto
-No vídeo que será disponibilizado abaixo, você irá encontrar a explicação do projeto para que não perca nenhum detalhe de todo o processo de desenvolvimento do projeto, ou seja, será mostrado com clareza todos os passos.
+No vídeo que será disponibilizado abaixo, você irá encontrar a explicação do projeto para que não perca nenhum detalhe de todo o processo de desenvolvimento, ou seja, será mostrado com clareza todos os passos realizados.
 - [Explicação Youtube](#)
 
 # 💼 Direitos
