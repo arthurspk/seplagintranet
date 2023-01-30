@@ -13,104 +13,72 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="ism/css/my-slider.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="ism/js/ism-2.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </head>
   <body>
 
     <style>
-      .anchor-link {
-        padding-left: 20px
-      }
 
-.card-style-flex {
-  display: flex;
-  justify-content: space-between;
+.paragraph-black {
+  color: black;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
-  --border-radius: 0.75rem;
-  --primary-color: #7257fa;
-  --secondary-color: #3c3852;
-  margin-right: 20px;
-  font-family: "Arial";
-  padding: 1rem;
-  cursor: pointer;
-  border-radius: var(--border-radius);
-  background: #f1f1f3;
-  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
-  position: relative;
-}
-
-.card > * + * {
-  margin-top: 1.1em;
-}
-
-.card .card__content {
-  color: var(--secondary-color);
-  font-size: 0.86rem;
-}
-
-.card .card__title {
-  padding: 0;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-.card .card__date {
-  color: #6e6b80;
-  font-size: 0.8rem;
-}
-
-.card .card__arrow {
-  position: absolute;
-  background: var(--primary-color);
-  padding: 0.4rem;
-  border-top-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
-  bottom: 0;
-  right: 0;
-  transition: 0.2s;
+  height: 750px;
+  width: 1254px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #F7F7F7;
+  padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
-.card svg {
-  transition: 0.2s;
+.card h1 {
+  margin: 0;
 }
 
-/* hover */
-.card:hover .card__title {
-  color: var(--primary-color);
-  text-decoration: underline;
-}
-
-.card:hover .card__arrow {
-  background: #111;
-}
-
-.card:hover .card__arrow svg {
-  transform: translateX(3px);
+.date {
+  align-self: flex-start;
+  margin-left: auto;
+  color: black;
 }
 
 .text-server {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-left: 2vh;
 }
 
-.carousel-style{
-  margin-top: 20px;
+@media (max-width: 2560px) {
+  .card {
+    width: 80%;
+    height: auto;
+  }
 }
 
-.carousel-cell {
-  margin-right: 30px
+@media (max-width: 1920px) {
+  .card {
+    width: 60%;
+    height: auto;
+  }
 }
+
+@media (max-width: 1366px) {
+  .card {
+    width: 40%;
+    height: auto;
+  }
+}
+
     </style>
 
 		<div class="wrapper d-flex align-items-stretch">
@@ -205,78 +173,31 @@
           </div>
         </nav>
 
-        <div class="ism-slider" data-transition_type="fade" data-play_type="loop" id="my-slider">
-          <ol>
-            <li>
-              <img src="ism/image/slides/_u/1674967271750_46495.png">
-            </li>
-            <li>
-              <img src="ism/image/slides/_u/1674967333874_798473.png">
-            </li>
-            <li>
-              <img src="ism/image/slides/_u/1674967446366_322433.png">
-            </li>
-          </ol>
-       </div>
-       <p class="ism-badge" id="my-slider-ism-badge"><a class="ism-link" href="http://imageslidermaker.com" rel="nofollow"></a></p>
-        <strong><h1 class="mb-4">ÚLTIMAS NOTÍCIAS</h1></strong>
-        <div class='card-style-flex'>
-        <div class="card">
-          <h3 class="card__title">Feriado à vista!
-          </h3>
-          <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore, sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
-          <div class="card__date">
-              22/06/2022
-          </div>
-          <div class="card__arrow">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-                  <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-              </svg>
-          </div>
-      </div>
-      <div class="card">
-        <h3 class="card__title">Feriado à vista!
-        </h3>
-        <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore, sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
-        <div class="card__date">
-            22/06/2022
-        </div>
-        <div class="card__arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-                <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-            </svg>
-        </div>
-    </div>
-    <div class="card">
-      <h3 class="card__title">Feriado à vista!
-      </h3>
-      <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore, sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
-      <div class="card__date">
-          22/06/2022
-      </div>
-      <div class="card__arrow">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-              <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-          </svg>
-      </div>
-  </div>
-</div>
+        <div class="container">
+          <div class="card">
+            <h1>Novo curso Egal!</h1>
+            <p class="date">20/06/2022</p>
+            <p class='paragraph-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
 
-<div class='carousel-style'>
-<h1>GALERIA</h1>
-<div class="main-carousel">
-  <div class="carousel-cell"><img src="images/card-images/image-1.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-2.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-3.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-4.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-5.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-6.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-7.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-8.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-9.png" alt=""></div>
-</div>
-</div>
+              Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Feriado à vista!</h1>
+            <p class="date">20/06/2022</p>
+            <p class='paragraph-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
 
+              Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat.
+            </p>
+          </div>
+          <div class="card">
+            <h1>Reunião Geral:</h1>
+            <p class="date">20/06/2022</p>
+            <p class='paragraph-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
+            </p>
+          </div>
+        </div>
+        
     </div>
 		</div>
 
@@ -296,19 +217,34 @@
             </div>  
         </footer>
 
+        <script>
+          $(".carousel").owlCarousel({
+            loop: true,
+            margin: 25,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            nav: true,
+            navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+            responsive: {
+              0: {
+                items: 1,
+              },
+              600: {
+                items: 2,
+              },
+              1000: {
+                items: 3,
+              },
+            }
+          })
+        </script>
 
+    <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    
-    <script>
-    $('.main-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    freeScroll: true,
-    });
-    </script>
-
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+  
   </body>
 </html>
