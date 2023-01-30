@@ -1,320 +1,388 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  	<title>SEPLAG - Intranet</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="css/style.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="ism/css/my-slider.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="ism/js/ism-2.2.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  </head>
-  <body>
 
-    <style>
-      .anchor-link {
-        padding-left: 20px
-      }
+<head>
+  <title>SEPLAG - Intranet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="ism/css/my-slider.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="ism/js/ism-2.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-.card-style-flex {
-  display: flex;
-  justify-content: space-between;
-}
-.card {
-  --border-radius: 0.75rem;
-  --primary-color: #7257fa;
-  --secondary-color: #3c3852;
-  margin-right: 20px;
-  font-family: "Arial";
-  padding: 1rem;
-  cursor: pointer;
-  border-radius: var(--border-radius);
-  background: #f1f1f3;
-  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
-  position: relative;
-}
+  <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+  <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+  </link>
+</head>
 
-.card > * + * {
-  margin-top: 1.1em;
-}
+<body>
 
-.card .card__content {
-  color: var(--secondary-color);
-  font-size: 0.86rem;
-}
+  <style>
+    .anchor-link {
+      padding-left: 20px
+    }
 
-.card .card__title {
-  padding: 0;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
+    .card-style-flex {
+      display: flex;
+      justify-content: space-between;
+    }
 
-.card .card__date {
-  color: #6e6b80;
-  font-size: 0.8rem;
-}
+    .card {
+      --border-radius: 0.75rem;
+      --primary-color: #7257fa;
+      --secondary-color: #3c3852;
+      margin-right: 20px;
+      font-family: "Arial";
+      padding: 1rem;
+      cursor: pointer;
+      border-radius: var(--border-radius);
+      background: #f1f1f3;
+      box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+      position: relative;
+    }
 
-.card .card__arrow {
-  position: absolute;
-  background: var(--primary-color);
-  padding: 0.4rem;
-  border-top-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
-  bottom: 0;
-  right: 0;
-  transition: 0.2s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    .card>*+* {
+      margin-top: 1.1em;
+    }
 
-.card svg {
-  transition: 0.2s;
-}
+    .card .card__content {
+      color: var(--secondary-color);
+      font-size: 0.86rem;
+    }
 
-/* hover */
-.card:hover .card__title {
-  color: var(--primary-color);
-  text-decoration: underline;
-}
+    .card .card__title {
+      padding: 0;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
 
-.card:hover .card__arrow {
-  background: #111;
-}
+    .card .card__date {
+      color: #6e6b80;
+      font-size: 0.8rem;
+    }
 
-.card:hover .card__arrow svg {
-  transform: translateX(3px);
-}
+    .card .card__arrow {
+      position: absolute;
+      background: var(--primary-color);
+      padding: 0.4rem;
+      border-top-left-radius: var(--border-radius);
+      border-bottom-right-radius: var(--border-radius);
+      bottom: 0;
+      right: 0;
+      transition: 0.2s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-.text-server {
-  color: white;
-  margin-left: 2vh;
-}
+    .card svg {
+      transition: 0.2s;
+    }
 
-.carousel-h1-style {
-  margin-bottom: 20px;
-}
+    /* hover */
+    .card:hover .card__title {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
 
-.carousel-style{
-  position: relative;
-  margin-top: 20px;
-}
+    .card:hover .card__arrow {
+      background: #111;
+    }
 
-.carousel-cell img {
-  margin-right: 30px;
-  height: 300px
-}
-    </style>
+    .card:hover .card__arrow svg {
+      transform: translateX(3px);
+    }
 
-		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar">
-				<div class="p-4 pt-5">
-		  		<img src="./images/logo.png" alt="Foto de perfil"><span class='text-server'>Servidor Teste</span>
-	        <ul class="list-unstyled components mb-5">
-                <li class="d-flex align-items-center">
-                    <img class="icon" src="images/menu-icons/headphone-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-                    <a class='anchor-link' href="pagina-externa.html">Central de Serviços - STI</a>
-                </li>
-                <li class="d-flex align-items-center">
-                    <img class="icon" src="images/menu-icons/headphone-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-                    <a href="pagina-externa.html">Central de Serviços - SEI</a>
-                </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/newspaper.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Díario Oficial</a>
+    .text-server {
+      color: white;
+      margin-left: 2vh;
+    }
+
+    .carousel-h1-style {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .carousel-style {
+      position: relative;
+      margin-top: 20px;
+    }
+
+    .carousel-cell img {
+      margin-right: 30px;
+      height: 300px
+    }
+
+    .splide__slide {
+      margin-left: 10px;
+    }
+  </style>
+
+  <div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+      <div class="p-4 pt-5">
+        <img src="./images/logo.png" alt="Foto de perfil"><span class='text-server'>Servidor Teste</span>
+        <ul class="list-unstyled components mb-5">
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/headphone-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a class='anchor-link' href="pagina-externa.html">Central de Serviços - STI</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/headphone-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Central de Serviços - SEI</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/newspaper.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Díario Oficial</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/stats-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Dados AL</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/email-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Expresso Livre</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/computer-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Facilita</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/docs-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Integra</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/medkit-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Pericía Médica</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/person-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Portal do Servidor</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/quality-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Qualidade</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/roomvideo-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Salas de reunião</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/portal-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="pagina-externa.html">Portal SEI</a>
+          </li>
+          <li class="d-flex align-items-center">
+            <img class="icon" src="images/menu-icons/logout-icon.png" width="26" height="24"
+              alt="ícone do Central de Serviços - STI">
+            <a href="index.html">Sair</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Toggle Menu</span>
+          </button>
+          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">HOME</a>
               </li>
-	          <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/stats-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Dados AL</a>
-	          </li>
-            <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/email-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Expresso Livre</a>
-	          </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/computer-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Facilita</a>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">GALERIA</a>
               </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/docs-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Integra</a>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">NOTICÍAS</a>
               </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/medkit-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Pericía Médica</a>
-              </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/person-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Portal do Servidor</a>
-              </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/quality-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Qualidade</a>
-              </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/roomvideo-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Salas de reunião</a>
-              </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/portal-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="pagina-externa.html">Portal SEI</a>
-              </li>
-              <li class="d-flex align-items-center">
-              <img class="icon" src="images/menu-icons/logout-icon.png" width="26" height="24" alt="ícone do Central de Serviços - STI">
-              <a href="index.html">Sair</a>
-              </li>
-	        </ul>
-
-	      </div>
-    	</nav>
-
-        <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-
-            <button type="button" id="sidebarCollapse" class="btn btn-primary">
-              <i class="fa fa-bars"></i>
-              <span class="sr-only">Toggle Menu</span>
-            </button>
-            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="home.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">GALERIA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="noticias.html">NOTICÍAS</a>
-                </li>
-              </ul>
-            </div>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
 
-        <div class="ism-slider" data-transition_type="fade" data-play_type="loop" id="my-slider">
-          <ol>
-            <li>
-              <img src="ism/image/slides/_u/1674967271750_46495.png">
-            </li>
-            <li>
-              <img src="ism/image/slides/_u/1674967333874_798473.png">
-            </li>
-            <li>
-              <img src="ism/image/slides/_u/1674967446366_322433.png">
-            </li>
-          </ol>
-       </div>
-       <p class="ism-badge" id="my-slider-ism-badge"><a class="ism-link" href="http://imageslidermaker.com" rel="nofollow"></a></p>
-        <strong><h1 class="mb-4">ÚLTIMAS NOTÍCIAS</h1></strong>
-        <div class='card-style-flex'>
+      <div class="ism-slider" data-transition_type="fade" data-play_type="loop" id="my-slider">
+        <ol>
+          <li>
+            <img src="ism/image/slides/_u/1674967271750_46495.png">
+          </li>
+          <li>
+            <img src="ism/image/slides/_u/1674967333874_798473.png">
+          </li>
+          <li>
+            <img src="ism/image/slides/_u/1674967446366_322433.png">
+          </li>
+        </ol>
+      </div>
+      <p class="ism-badge" id="my-slider-ism-badge"><a class="ism-link" href="http://imageslidermaker.com"
+          rel="nofollow"></a></p>
+      <strong>
+        <h1 class="mb-4">ÚLTIMAS NOTÍCIAS</h1>
+      </strong>
+      <div class='card-style-flex'>
         <div class="card">
           <h3 class="card__title">Feriado à vista!
           </h3>
-          <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore, sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
+          <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium
+            exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore,
+            sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
           <div class="card__date">
-              22/06/2022
+            22/06/2022
           </div>
           <div class="card__arrow">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-                  <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-              </svg>
-          </div>
-      </div>
-      <div class="card">
-        <h3 class="card__title">Feriado à vista!
-        </h3>
-        <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore, sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
-        <div class="card__date">
-            22/06/2022
-        </div>
-        <div class="card__arrow">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-                <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+              <path fill="#fff"
+                d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z">
+              </path>
             </svg>
+          </div>
         </div>
+        <div class="card">
+          <h3 class="card__title">Feriado à vista!
+          </h3>
+          <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium
+            exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore,
+            sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
+          <div class="card__date">
+            22/06/2022
+          </div>
+          <div class="card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+              <path fill="#fff"
+                d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z">
+              </path>
+            </svg>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Feriado à vista!
+          </h3>
+          <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium
+            exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore,
+            sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
+          <div class="card__date">
+            22/06/2022
+          </div>
+          <div class="card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+              <path fill="#fff"
+                d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <h1 class='carousel-h1-style'>GALERIA</h1>
+      <section class="splide" role="gro" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list" style="width: 40% !important;">
+            <img style="width: 10px !important;" class="splide__slide" src="images/card-images/image-1.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-2.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-3.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-4.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-5.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-6.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-7.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-8.png" alt="">
+            <img class="splide__slide" src="images/card-images/image-9.png" alt="">
+          </ul>
+        </div>
+      </section>
+
+
     </div>
-    <div class="card">
-      <h3 class="card__title">Feriado à vista!
-      </h3>
-      <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe praesentium exercitationem voluptas, architecto repellendus rem dolorem delectus quidem quae temporibus, est dolore, sapiente expedita accusantium voluptates eos impedit. Reprehenderit.</p>
-      <div class="card__date">
-          22/06/2022
-      </div>
-      <div class="card__arrow">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
-              <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
-          </svg>
-      </div>
   </div>
-</div>
 
-<div class='carousel-style'>
-<h1 class='carousel-h1-style'>GALERIA</h1>
-<div class="main-carousel" style='min-height: 300px;'>
-  <div class="carousel-cell"><img src="images/card-images/image-1.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-2.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-3.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-4.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-5.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-6.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-7.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-8.png" alt=""></div>
-  <div class="carousel-cell"><img src="images/card-images/image-9.png" alt=""></div>
-</div>
-</div>
-
+  <div style="display: flex; align-items: center; justify-content: center; background-color: #0084CF;">
+    <img src="images/brasao.png" style="margin: 0 auto; max-width: 100%;">
+    <div style="position: absolute; right: 0; display: flex; align-items: center;">
+      <a href="https://www.facebook.com/seplagalagoas"><img src="images/icons/facebook.png"
+          style="margin-right: 25px;"></a>
+      <a href="https://www.instagram.com/seplagalagoas/"><img src="images/icons/instagram.png"
+          style="margin-right: 25px;"></a>
+      <a href="https://twitter.com/seplagalagoas/"> <img src="images/icons/twitter.png" style="margin-right: 25px;"
+          href="https://twitter.com/seplagalagoas/"></a>
+      <p style="margin: 0; padding-right: 30px">seplagalagoas</p>
     </div>
-		</div>
+  </div>
 
-        <div style="display: flex; align-items: center; justify-content: center; background-color: #0084CF;">
-            <img src="images/brasao.png" style="margin: 0 auto; max-width: 100%;">
-            <div style="position: absolute; right: 0; display: flex; align-items: center;">
-                <a href="https://www.facebook.com/seplagalagoas"><img src="images/icons/facebook.png" style="margin-right: 25px;" ></a>
-                <a href="https://www.instagram.com/seplagalagoas/"><img src="images/icons/instagram.png" style="margin-right: 25px;" ></a>
-                <a href="https://twitter.com/seplagalagoas/"> <img src="images/icons/twitter.png" style="margin-right: 25px;" href="https://twitter.com/seplagalagoas/"></a>
-                <p style="margin: 0; padding-right: 30px">seplagalagoas</p>
-            </div>
-        </div>
-        
-        <footer>
-            <div style="background-color: #0065D8; text-align: center;">
-                <p style="color: white; margin: 0; padding: 5px 0;">Copyright Ⓡ 2023 SEPLAG - Secretária do Estado de Planejamento, Gestão e Patrimônio | Todos os direitos reservados</p>
-            </div>  
-        </footer>
+  <footer>
+    <div style="background-color: #0065D8; text-align: center;">
+      <p style="color: white; margin: 0; padding: 5px 0;">Copyright Ⓡ 2023 SEPLAG - Secretária do Estado de
+        Planejamento, Gestão e Patrimônio | Todos os direitos reservados</p>
+    </div>
+  </footer>
 
 
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    
-    <script defer>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script defer>
     $('.main-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    freeScroll: true,
+      // options
+      cellAlign: 'left',
+      contain: true,
+      freeScroll: true,
     });
-    </script> 
+  </script>
 
-  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var splide = new Splide('.splide');
+      splide.mount();
+    });
+  </script>
+
+</body>
+
 </html>
