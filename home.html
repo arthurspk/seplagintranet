@@ -105,11 +105,13 @@
 }
 
 .carousel-style{
+  position: relative;
   margin-top: 20px;
 }
 
-.carousel-cell {
-  margin-right: 30px
+.carousel-cell img {
+  margin-right: 30px;
+  height: 300px
 }
     </style>
 
@@ -264,7 +266,7 @@
 
 <div class='carousel-style'>
 <h1>GALERIA</h1>
-<div class="main-carousel">
+<div class="main-carousel" style='min-height: 300px;'>
   <div class="carousel-cell"><img src="images/card-images/image-1.png" alt=""></div>
   <div class="carousel-cell"><img src="images/card-images/image-2.png" alt=""></div>
   <div class="carousel-cell"><img src="images/card-images/image-3.png" alt=""></div>
@@ -301,14 +303,14 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     
-    <script>
+    <script defer>
     $('.main-carousel').flickity({
     // options
     cellAlign: 'left',
     contain: true,
     freeScroll: true,
     });
-    </script>
+    </script> 
 
   </body>
 </html>
