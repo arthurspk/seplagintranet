@@ -17,7 +17,7 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 * [ScSS](https://sass-lang.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-* [Jquery](https://jquery.com/)
+* [jQuery](https://jquery.com/)
 
 # 🎯 Acesse ao projeto
 Você pode acessar o site pelo link abaixo:
